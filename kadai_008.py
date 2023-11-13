@@ -1,3 +1,5 @@
+var=20
+
 if var%3==0 and var%5==0:
   print("FizzBuzz")
 elif var%3==0:
