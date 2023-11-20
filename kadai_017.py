@@ -1,4 +1,4 @@
-class Product:
+class Humen:
   def __init__(self,name,age):
     self.name=""
     self.age=0
@@ -15,7 +15,7 @@ class Product:
       else:
         print("大人ではありません")
 
-Humen = Product("yamada",23)
+name_age = Humen("yamada",23)
 
 list_age = []
 
@@ -26,5 +26,5 @@ list_age.append(18)
 
 for a in list_age:
   
-  Humen.set_age(a)
-  Humen.check_adult()
+  name_age.set_age(a)
+  name_age.check_adult()
