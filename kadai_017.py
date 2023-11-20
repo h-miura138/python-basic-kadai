@@ -1,5 +1,5 @@
 class Product:
-  def __init__(self):
+  def __init__(self,name,age):
     self.name=""
     self.age=0
 
@@ -15,7 +15,7 @@ class Product:
       else:
         print("大人ではありません")
 
-Humen = Product()
+Humen = Product("yamada",23)
 
 list_age = []
 
